@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Css/base.css">
-    <link rel="stylesheet" href="Css/animation.css">
-    <link rel="stylesheet" href="Css/flex.css">
-    <link rel="stylesheet" href="Css/form.css">
+    <link rel="stylesheet" href="Assets/Css/base.css">
+    <link rel="stylesheet" href="Assets/Css/animation.css">
+    <link rel="stylesheet" href="Assets/Css/flex.css">
+    <link rel="stylesheet" href="Assets/Css/form.css">
     <title>BB</title>
 </head>
 <body>
@@ -15,8 +15,8 @@
         <ul class="flexible space-evenly">
             <!-- grand écran -->
             <li class="menu"><a href="index.php">Home</a></li>
-            <li  class="menu"><a href="inscriptionOrEditProfil.php">Inscription</a></li>
-            <li  class="menu"><a href="connexion.php">Connexion</a></li>
+            <li  class="menu"><a href="inscription">Inscription</a></li>
+            <li  class="menu"><a href="connexion">Connexion</a></li>
             <!-- petit écran -->
             <li class="imageMenu"><a href="index.php"><ion-icon size="large" name="home-outline"></ion-icon></a></li>
             <li class="imageMenu"><a href="inscriptionOrEditProfil.php"><ion-icon size="large" name="person-outline"></ion-icon></a></li>
@@ -25,7 +25,7 @@
     </header>
     <main>
         <h1>Voir l'école => Nom de l'école</h1>
-            <img class="imageMilieu" src="Images/itnIm.jpeg" alt="Image de l'école">
+            <img class="imageMilieu" src="Assets/Images/itnIm.jpeg" alt="Image de l'école">
         <div class="flexible wrap space-around">
             <div class="card border">
                 <h2>Informations générales</h2>
@@ -55,9 +55,9 @@
     <footer>
         <div class="flexible space-between align-item-center">
             <div>
-                <img class="imageIcon" src="Images/icon1.jpg" alt="image twitter">
-                <img class="imageIcon" src="Images/icon2.jpg" alt="image facebook">
-                <img class="imageIcon" src="Images/icon3.jpg" alt="image google">
+                <img class="imageIcon" src="Assets/Images/icon1.jpg" alt="image twitter">
+                <img class="imageIcon" src="Assets/Images/icon2.jpg" alt="image facebook">
+                <img class="imageIcon" src="Assets/Images/icon3.jpg" alt="image google">
             </div>
         </div>
     </footer>
